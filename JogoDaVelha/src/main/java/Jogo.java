@@ -6,7 +6,7 @@ public class Jogo {
     public Jogo() {
         tab = new Tabuleiro();
         //while para enquanto metodo jogar retornar true ele continuar acontecendo
-        while(jogar());
+        while(Jogar());
     }
 
     int rodada = 1;
@@ -55,7 +55,7 @@ public class Jogo {
 
     //metodo para receber como o tabuleiro está
     // classe publica para poder ser acessada de qualquer outra classe
-    public boolean jogar() {
+    public boolean Jogar() {
         //enquanto o ganhou retornar 0, o jogo pode continuar:
         if (ganhouJogo() == 0) {
             System.out.println("------------");

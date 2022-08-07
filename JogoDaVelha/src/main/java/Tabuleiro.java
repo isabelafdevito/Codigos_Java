@@ -48,6 +48,7 @@ public class Tabuleiro {
         else if(jogador == 2) {
             matriz[posicao[0]][posicao[1]] = -1;
         }
+        //onde ta mostrando o tabuleiro pro jogo:
         mostraTabuleiro();
     }
 // metodo para ver se a posicao esta ocupada ou nao
