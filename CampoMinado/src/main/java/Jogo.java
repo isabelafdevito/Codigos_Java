@@ -1,11 +1,12 @@
 public class Jogo {
     Tabuleiro tab;
+
     public Jogo () {
         tab = new Tabuleiro();
         Jogar();
     }
     int rodada=0;
-    boolean terminar=false;
+    boolean terminar = false;
     public void Jogar() {
         do {
             rodada++;

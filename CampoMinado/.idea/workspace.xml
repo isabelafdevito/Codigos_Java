@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d1de8b-6a53-498f-a1d3-fed81e2beabc" name="Changes" comment="" />
+    <list default="true" id="05d1de8b-6a53-498f-a1d3-fed81e2beabc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoDaVelha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoDaVelha/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/isabe/OneDrive/Área de Trabalho/Codigos_Java/CampoMinado",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
