@@ -1,31 +1,35 @@
 public class Jogo {
     Tabuleiro tab;
+    int rodada=0;
+    boolean terminar = false;
+    boolean ganhou = false;
 
     public Jogo () {
         tab = new Tabuleiro();
         Jogar();
     }
-    int rodada=0;
-    boolean terminar = false;
     public void Jogar() {
+        tab.exibeTabuleiro();
         do {
             rodada++;
             System.out.println("Rodada " + rodada);
-            tab.exibeTabuleiro();
             terminar = tab.setPosicao();
             if (!(terminar)) {
-                tab.abrirVizinhas();
+                if(rodada==1)
+                    tab.exibirDicas();
+                tab.exibeTabuleiro();
                 terminar = tab.ganhou();
             }
         } while(!(terminar));
         if(!tab.ganhou()){
-            System.out.println("Havia uma mina ! Você perdeu!");
+            System.out.println("Havia uma mina ! Voce perdeu!");
             tab.exibeMinas();
         } else {
-            System.out.println("Parabéns, você deixou os 8 campos de minas livres em "+rodada+" rodadas");
+            System.out.println("Parabens, voce deixou os 10 campos de minas livres");
             tab.exibeMinas();
         }
 
     }
 
 }
+

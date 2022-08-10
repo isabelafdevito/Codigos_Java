@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc7f813-4655-4d07-92ab-75b7d36e0e06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CampoMinado/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CampoMinado/src/main/java/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CampoMinado/src/main/java/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/src/main/java/ClassePrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/src/main/java/Jogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CampoMinado/src/main/java/Tabuleiro.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
