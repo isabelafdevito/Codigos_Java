@@ -9,6 +9,9 @@ public class ClassePrincipal {
         pm.posicaoY = 3;
 
         pm.movePraBaixo();
+        pm.movePraCima();
+        pm.movePraDireita();
+        pm.movePraEsquerda();
 
         System.out.println(pm.getPontuacao());
         System.out.println(pm.getVidas());

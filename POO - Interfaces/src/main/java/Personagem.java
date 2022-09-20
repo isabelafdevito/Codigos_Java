@@ -1,4 +1,4 @@
-public class Personagem implements Movel {
+public abstract class Personagem implements Movel {
 
     protected String cor;
     protected int posicaoX;
