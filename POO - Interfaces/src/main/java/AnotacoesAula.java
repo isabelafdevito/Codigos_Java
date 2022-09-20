@@ -8,6 +8,7 @@ public class AnotacoesAula {
     - uma classe que não pode ser instanciada
     - usada para prover herança e polimorfismo
     - o java só permite herança simples (cada classe só pode ter uma mãe)
+    - mesmo que a classe filha esteja vazia, a filha ainda tem implementações, pois tem as implementações da mãe
 
     Interfaces:
     - não possui construtores
