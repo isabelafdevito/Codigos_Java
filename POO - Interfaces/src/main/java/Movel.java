@@ -1,11 +1,11 @@
 public interface Movel {
 
-    public void movePraCima();
+    void movePraCima();
 
-    public void movePraBaixo();
+    void movePraBaixo();
 
-    public void movePraDireita();
+    void movePraDireita();
 
-    public void movePraEsquerda();
+    void movePraEsquerda();
 
 }

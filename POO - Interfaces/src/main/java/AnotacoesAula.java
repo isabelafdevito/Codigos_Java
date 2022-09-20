@@ -15,7 +15,7 @@ public class AnotacoesAula {
     - não pode ter atributos, só cabeçalhos de métodos (por isso os metodos são todos abstratos)
     - suporta apenas constantes
     - as classes que implementam uma interface obrigatoriamente tem que fazer overwrite dos métodos da interface
-    -
+    - TODOS OS METODOS DE UMA INTERFACE SAO PUBLIC ABSTRACT por padrão
 
      */
 
