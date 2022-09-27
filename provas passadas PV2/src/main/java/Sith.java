@@ -36,12 +36,14 @@ public class Sith extends Personagem implements Forca{
     public void travarBatalha() {
         System.out.println(getNome() + " travou uma batalha contra um jedi");
         setPoder(getPoder() + 1);
+        System.out.println("Poder apos a batalha: " + getPoder());
     }
 
     @Override
     public void usarForca() {
         System.out.println(getNome() + " usou o lado negro da forca");
         setPoder(getPoder() + 3);
+        System.out.println("Poder apos usar a forca: " + getPoder());
     }
 
     @Override

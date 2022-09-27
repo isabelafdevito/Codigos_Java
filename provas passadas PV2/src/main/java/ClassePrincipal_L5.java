@@ -23,12 +23,12 @@ public class ClassePrincipal_L5 {
                     n1.personagem[i].travarBatalha();
                     ((Jedi) n1.personagem[i]).usarForca();
                     ((Jedi) n1.personagem[i]).trocarSabre("Amarelo");
-                    System.out.println(((Jedi) n1.personagem[i]).getSabre().getCor());
+                    System.out.println("Cor do sabre de luz: " + ((Jedi) n1.personagem[i]).getSabre().getCor());
                 } else if (n1.personagem[i] instanceof Sith) {
                     n1.personagem[i].travarBatalha();
                     ((Sith) n1.personagem[i]).usarForca();
                     ((Sith) n1.personagem[i]).trocarSabre("Azul");
-                    System.out.println(((Sith) n1.personagem[i]).getSabre().getCor());
+                    System.out.println("Cor do sabre de luz: " + ((Sith) n1.personagem[i]).getSabre().getCor());
                     ((Sith) n1.personagem[i]).corromperJedi();
                 } else if (n1.personagem[i] instanceof Droid) {
                     ((Droid) n1.personagem[i]).hackearSistema();

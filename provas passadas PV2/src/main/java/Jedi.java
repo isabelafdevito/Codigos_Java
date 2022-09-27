@@ -27,7 +27,7 @@ public class Jedi extends Personagem implements Treinamento, Forca{
     public void travarBatalha() {
         System.out.println(getNome() + " travou uma batalha contra um sith");
         setPoder(getPoder()+1);
-        System.out.println("Poder: " + getPoder());
+        System.out.println("Poder apos a batalha: " + getPoder());
     }
 
     @Override
@@ -43,6 +43,8 @@ public class Jedi extends Personagem implements Treinamento, Forca{
     public void usarForca() {
         System.out.println(getNome() + " usou a forca para o bem");
         setPoder(getPoder() + 5);
+        System.out.println("Poder apos usar a forca: " + getPoder());
+
     }
 
     @Override
