@@ -1,12 +1,13 @@
 public abstract class Personagem {
 
-    public static int contador = 1;
+    public static int contador = 0;
 
     public Personagem(String nome, int id, int poder) {
         this.nome = nome;
         this.id = id;
         this.poder = poder;
         contador++;
+        this.id = contador;
     }
 
     private String nome;

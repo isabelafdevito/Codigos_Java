@@ -50,7 +50,7 @@ public class ClassePrincipal_L5 {
             }
         }
         System.out.println();
-        System.out.println("Quantidade de personagens criados: " + (Personagem.contador - 1));
+        System.out.println("Quantidade de personagens criados: " + (Personagem.contador));
 
     }
 }
