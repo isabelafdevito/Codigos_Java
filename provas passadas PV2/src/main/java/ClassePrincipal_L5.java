@@ -15,26 +15,42 @@ public class ClassePrincipal_L5 {
         p1[2] = d1;
 
         n1.mostraInfo();
+        System.out.println();
         for(int i=0;i<n1.personagem.length; i++) {
             if(n1.personagem[i] != null) {
-                n1.personagem[i].mostraInfo();
                 if(n1.personagem[i] instanceof Jedi) {
-                    ((Jedi) n1.personagem[i]).treinarPadawan();
-                    n1.personagem[i].travarBatalha();
-                    ((Jedi) n1.personagem[i]).usarForca();
-                    ((Jedi) n1.personagem[i]).trocarSabre("Amarelo");
-                    System.out.println("Cor do sabre de luz: " + ((Jedi) n1.personagem[i]).getSabre().getCor());
+
+                    Jedi j = (Jedi) n1.personagem[i];
+                    j.mostraInfo();
+                    j.treinarPadawan();
+                    j.travarBatalha();
+                    j.usarForca();
+                    j.trocarSabre("Amarelo");
+                    System.out.println("Cor do sabre de luz: " + (j.getSabre().getCor()));
+
                 } else if (n1.personagem[i] instanceof Sith) {
-                    n1.personagem[i].travarBatalha();
-                    ((Sith) n1.personagem[i]).usarForca();
-                    ((Sith) n1.personagem[i]).trocarSabre("Azul");
-                    System.out.println("Cor do sabre de luz: " + ((Sith) n1.personagem[i]).getSabre().getCor());
-                    ((Sith) n1.personagem[i]).corromperJedi();
+
+                    Sith s = (Sith) n1.personagem[i];
+
+                    s.mostraInfo();
+                    s.travarBatalha();
+                    s.usarForca();
+                    s.trocarSabre("Azul");
+                    System.out.println("Cor do sabre de luz: " + (s.getSabre().getCor()));
+                    s.corromperJedi();
+
                 } else if (n1.personagem[i] instanceof Droid) {
-                    ((Droid) n1.personagem[i]).hackearSistema();
-                    n1.personagem[i].travarBatalha();
+
+                    Droid d = (Droid) n1.personagem[i];
+
+                    d.mostraInfo();
+                    d.hackearSistema();
+                    d.travarBatalha();
                 }
             }
         }
+        System.out.println();
+        System.out.println("Quantidade de personagens criados: " + (Personagem.contador - 1));
+
     }
 }
