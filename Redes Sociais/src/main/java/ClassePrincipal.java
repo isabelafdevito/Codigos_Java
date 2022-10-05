@@ -2,14 +2,17 @@ public class ClassePrincipal {
 
     public static void main(String[] args) {
 
-        Usuario u1 = new Usuario("Isabela", "isabela@gmail.com");
-        u1.redesSociais = new RedeSocial[2];
+        RedeSocial[] rs = new RedeSocial[2];
+
+        Usuario u1 = new Usuario(rs);
+        u1.setNome("Isabela");
+        u1.setEmail("isabela@gmail.com");
 
         Facebook f1 = new Facebook("12345", 100);
-        u1.redesSociais[0] = f1;
+        rs[0] = f1;
 
         Twitter t1 = new Twitter("54321", 30);
-        u1.redesSociais[1] = t1;
+        rs[1] = t1;
 
 
         System.out.println("Informacoes do usuario: ");
@@ -18,11 +21,11 @@ public class ClassePrincipal {
 
         System.out.println();
 
-        for (int i = 0; i < u1.redesSociais.length; i++) {
-            if (u1.redesSociais[i] != null) {
+        for (int i = 0; i < rs.length; i++) {
+            if (rs[i] != null) {
 
-                if (u1.redesSociais[i] instanceof Facebook) {
-                    Facebook f = (Facebook) u1.redesSociais[i];
+                if (rs[i] instanceof Facebook) {
+                    Facebook f = (Facebook) rs[i];
 
                     f.compartilhar();
                     f.curtirPublicacao();
@@ -32,8 +35,8 @@ public class ClassePrincipal {
                     f.postarVideo();
 
 
-                } else if (u1.redesSociais[i] instanceof Twitter) {
-                    Twitter t = (Twitter) u1.redesSociais[i];
+                } else if (rs[i] instanceof Twitter) {
+                    Twitter t = (Twitter) rs[i];
 
                     t.compartilhar();
                     t.curtirPublicacao();
@@ -41,16 +44,16 @@ public class ClassePrincipal {
                     t.postarFoto();
                     t.postarVideo();
 
-                } else if (u1.redesSociais[i] instanceof Instagram) {
-                    Instagram in = (Instagram) u1.redesSociais[i];
+                } else if (rs[i] instanceof Instagram) {
+                    Instagram in = (Instagram) rs[i];
 
                     in.curtirPublicacao();
                     in.postarComentario();
                     in.postarFoto();
                     in.postarVideo();
 
-                } else if (u1.redesSociais[i] instanceof GooglePlus) {
-                    GooglePlus g = (GooglePlus) u1.redesSociais[i];
+                } else if (rs[i] instanceof GooglePlus) {
+                    GooglePlus g = (GooglePlus) rs[i];
 
                     g.compartilhar();
                     g.curtirPublicacao();
