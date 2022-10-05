@@ -30,16 +30,13 @@ public class ClassePrincipal {
                     f.compartilhar();
                     f.curtirPublicacao();
                     f.fazStreaming();
-                    f.postarComentario();
-                    f.postarFoto();
-                    f.postarVideo();
+
 
 
                 } else if (rs[i] instanceof Twitter) {
                     Twitter t = (Twitter) rs[i];
 
-                    t.compartilhar();
-                    t.curtirPublicacao();
+
                     t.postarComentario();
                     t.postarFoto();
                     t.postarVideo();
