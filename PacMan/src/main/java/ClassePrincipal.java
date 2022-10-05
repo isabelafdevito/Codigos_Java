@@ -9,6 +9,7 @@ public class ClassePrincipal {
         Personagem[] p = new Personagem[5];
         PacMan pc = new PacMan();
         p[0] = pc;
+        pc.cor = "Amarelo";
 
         Inimigo[] inimigo = new Inimigo[4];
         inimigo[0] = new Inimigo();
@@ -19,6 +20,10 @@ public class ClassePrincipal {
         p[2]=inimigo[1];
         p[3]=inimigo[2];
         p[4]=inimigo[3];
+        p[1].cor = "Vermelho";
+        p[2].cor = "Azul";
+        p[3].cor = "Rosa";
+        p[4].cor = "Verde";
 
         p[0].posicaoY = 50;
         p[0].posicaoX = 50;
