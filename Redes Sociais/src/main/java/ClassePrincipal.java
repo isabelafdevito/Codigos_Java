@@ -3,7 +3,7 @@ public class ClassePrincipal {
     public static void main(String[] args) {
 
         Usuario u1 = new Usuario("Isabela", "isabela@gmail.com");
-        u1.redesSociais = new RedeSocial[4];
+        u1.redesSociais = new RedeSocial[2];
 
         Facebook f1 = new Facebook("12345", 100);
         u1.redesSociais[0] = f1;
@@ -11,11 +11,6 @@ public class ClassePrincipal {
         Twitter t1 = new Twitter("54321", 30);
         u1.redesSociais[1] = t1;
 
-        GooglePlus g1 = new GooglePlus("11111", 10);
-        u1.redesSociais[2] = g1;
-
-        Instagram i1 = new Instagram("2222", 200);
-        u1.redesSociais[3] = i1;
 
         System.out.println("Informacoes do usuario: ");
         System.out.println("Nome: " + u1.getNome());
