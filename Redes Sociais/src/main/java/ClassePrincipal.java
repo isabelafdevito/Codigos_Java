@@ -36,7 +36,6 @@ public class ClassePrincipal {
                 } else if (rs[i] instanceof Twitter) {
                     Twitter t = (Twitter) rs[i];
 
-
                     t.postarComentario();
                     t.postarFoto();
                     t.postarVideo();
