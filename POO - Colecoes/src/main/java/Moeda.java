@@ -2,9 +2,11 @@ public class Moeda implements Comparable<Moeda>{
 
     private float valor;
     public Moeda(float v) {
-        valor = valor + v;
+
+        valor =  v;
     };
     public float getValor() {
+
         return valor;
     }
 
